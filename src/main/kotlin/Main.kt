@@ -18,7 +18,7 @@ fun length(word: String) :Int{
 }
 fun name(nam: String){
     val e = "Ess"
-    if ( nam ==(e)) {
+    if ( nam .equals (e)) {
         println("That's me!")
     }
     else{
